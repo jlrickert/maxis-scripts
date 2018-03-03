@@ -2,6 +2,14 @@ import tkinter as tk
 
 
 def submit(*args):
+    # bzio.connect("something")
+    # bzio.focus()
+    # bzio.SetCursor(6, 7)
+    # bzio.sendKey('x')
+
+    # bzio.SetCursor(6, 7)
+    # bzio.sendKey('x')
+
     print(int(case_number[0].get()))
     print(str(case_note_file[0].get()))
     print(str(description[0].get()))
@@ -10,6 +18,7 @@ def submit(*args):
 
 root = tk.Tk()
 root.title("Blank case notes")
+root.geometry("400x400")
 
 mainframe = tk.Frame(root)
 mainframe.grid(column=0, row=0, sticky=(tk.W, tk.N, tk.E, tk.S))

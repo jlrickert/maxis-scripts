@@ -20,6 +20,7 @@ def submit():
 
 root = tk.Tk()
 root.title("Certain populations annual renewal")
+root.geometry("400x400")
 
 mainframe = tk.Frame(root)
 mainframe.grid(row=0, column=0, sticky=(tk.W, tk.N, tk.E, tk.S))
